@@ -53,7 +53,8 @@ src/
 -> Demo Login
 
 Login with:
-```Email: demo@campaignhq.com
+```
+Email: demo@campaignhq.com
 Password: demo123
 ```
 
