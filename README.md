@@ -14,7 +14,6 @@ Settings page with user + organization info
 Fully responsive and optimized UI
 
 🧑‍💻 Tech Stack
-
 Frontend
 Next.js 13+ (App Router)
 TypeScript
@@ -27,6 +26,7 @@ In-memory Mock Database (mockData.ts)
 JWT Auth flow
 
 📂 Project Structure
+```
 src/
  ├─ app/
  │   ├─ (public)/login/page.tsx
@@ -49,12 +49,14 @@ src/
  │   └─ queries.ts
  │
  └─ lib/apolloClient.ts
-
+```
 -> Demo Login
 
 Login with:
+```
 Email: demo@campaignhq.com
 Password: demo123
+```
 
 
 Token is stored in localStorage and sent to every GraphQL request.
@@ -90,23 +92,25 @@ Mock Google & Meta Ads connections
 
 -> How to Run
 Install dependencies:
+```
 npm install
 Create .env.local:
-
 JWT_SECRET=my-secret
 NEXT_PUBLIC_GRAPHQL_ENDPOINT=/api/graphql
-
+```
 
 Run locally:
+```
 npm run dev
-
-
+```
+```
 Visit: http://localhost:3000
-
+```
 Build for production:
+```
 npm run build
 npm start
-
+```
 -> project Description Mapping
 Required Skill	How This Project Proves It
 Next.js + TypeScript	Full App Router app with strict TS
